@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pop Rock Crystal Shop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="assets/styles.css">
+    <link rel="icon" type="image/x-icon" href="assets/Logo.svg">
+</head>
+<body>
+    <div class="bg-container">
+        <img src="/assets/Top Bg.svg" alt="wave" class="wave"/>
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="assets/Logo.svg" alt="logo" />
+                    <p>Pop Rock Crystal</p>
+                </div>
+                <div class="right-nav">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#shop">Shop</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Help</a></li>
+                    </ul>
+                    <div class="cart">
+                        <img src="assets/Cart.svg" alt="Cart">
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main id="home">
+            <section class="hero-container">
+                <div class="hero-section">
+                    <h1>Welcome to <br> <span>Pop Rock Crystal Shop!</span></h1>
+                    <p>Here you will find unique phone accessories, crystals, jewelry, and more. Free shipping inside the U.S. and our phone grips come with a limited warranty. Enjoy!</p>
+                    <button class="shop-now" type="button">SHOP NOW</button>
+                    <a href="#" class="about-link">about us</a>
+                </div>
+
+                <div class="right-container">
+                    <div class="featured-product">
+                        <img src="assets/New Lot.svg" alt="new-lot" class="new-lot" />
+                        <div class="product-image">
+                            <div class="image-container">
+                                <img src="assets/Products/Agate.svg" alt="Crystal Agate Phone Grip" class="slide active">
+                                <img src="assets/Products/AirPods.jpeg" alt="Crystal Agate Phone Grip" class="slide">
+                                <img src="assets/Products/Wireless Charger.jpeg" alt="Crystal Agate Phone Grip" class="slide">
+                                <img src="assets/Products/PopSocket.jpeg" alt="Crystal Agate Phone Grip" class="slide">
+                                <img src="assets/Products/Car Diffuser.jpeg" alt="Crystal Agate Phone Grip" class="slide">
+                                <img src="assets/Products/Water Bottle.jpeg" alt="Crystal Agate Phone Grip" class="slide">
+                                <img src="assets/Products/Meditation Cushion.jpeg" alt="Crystal Agate Phone Grip" class="slide">
+                                <img src="assets/Products/Jewellery.jpeg" alt="Crystal Agate Phone Grip" class="slide">
+                            </div>
+                            <div class="product-info">
+                                <img src="assets/Rectangle 230.svg" alt="line" class="line" />
+                                <h2>CRYSTAL AGATE PHONE GRIP <span>- 18.99$</span></h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider-dots">
+                        <button id="prev" class="prev" type="button">
+                            <img src="assets/Left Slider.svg" alt="slider" />
+                        </button>
+                        <div class="dots">
+                          <span class="dot active" data-slide="0"></span>
+                          <span class="dot"data-slide="1"></span>
+                          <span class="dot"data-slide="2"></span>
+                          <span class="dot"data-slide="3"></span>
+                          <span class="dot"data-slide="4"></span>
+                          <span class="dot"data-slide="5"></span>
+                          <span class="dot"data-slide="6"></span>
+                          <span class="dot"data-slide="7"></span>
+                        </div>
+                        <button id="next" class="next" type="button">
+                            <img src="assets/Right  Slider.svg" alt="slider" />
+                        </button>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+        <main id="shop">
+            <section class="product-list">
+                <h2>All Product</h2>
+                <hr class="line text-center">
+                <div class="filters">
+                    <div>
+                        <label for="filter">Filter:</label>
+                        <select title="filter-dropdown" id="filter" name="filter" class="dropdown">
+                            <option value="all products" selected>All Products</option>
+                            <option value="brands">Brands</option>
+                            <option value="price range">Price Range</option>
+                            <option value="customer ratings">Customer Ratings</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="sort">Sort:</label>
+                        <select title="sort-dropdown" id="sort" name="sort" class="dropdown">
+                            <option value="best selling" selected>Best Selling</option>
+                            <option value="new arrival">New Arrival</option>
+                            <option value="lowest price">Lowest Price</option>
+                            <option value="highest price">Highest Price</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="product-grid">
+                    <div class="product-card">
+                        <img src="assets/Products/Agate.svg" alt="Crystal Agate Phone Grip">
+                        <p>CRYSTAL AGATE PHONE GRIP <br/> <span>18.99$</span></p>
+                        <button type="button">BUY NOW</button>
+                    </div>
+
+                    <div class="product-card">
+                        <img src="assets/Products/AirPods.jpeg" alt="Crystal Agate Phone Grip">
+                        <p>CRYSTAL-encrusted AIRPODS <br/> <span>108.99$</span></p>
+                        <button type="button">BUY NOW</button>
+                    </div>
+
+                    <div class="product-card">
+                        <img src="assets/Products/Wireless Charger.jpeg" alt="Crystal Agate Phone Grip">
+                        <p>CRYSTAL Qi WIRELESS CHARGER <br/> <span>68.99$</span></p>
+                        <button type="button">BUY NOW</button>
+                    </div>
+
+                    <div class="product-card">
+                        <img src="assets/Products/PopSocket.jpeg" alt="Crystal Agate Phone Grip">
+                        <p>CRYSTAL POPSOCKET <br/> <span>18.99$</span></p>
+                        <button type="button">BUY NOW</button>
+                    </div>
+
+                    <div class="product-card">
+                        <img src="assets/Products/Car Diffuser.jpeg" alt="Crystal Agate Phone Grip">
+                        <p>CRYSTAL CAR DIFFUSER <br/> <span>38.99$</span></p>
+                        <button type="button">BUY NOW</button>
+                    </div>
+
+                    <div class="product-card">
+                        <img src="assets/Products/Water Bottle.jpeg" alt="Crystal Agate Phone Grip">
+                        <p>CRYSTAL-infused WATER BOTTLE <br/> <span>8.99$</span></p>
+                        <button type="button">BUY NOW</button>
+                    </div>
+
+                    <div class="product-card">
+                        <img src="assets/Products/Meditation Cushion.jpeg" alt="Crystal Agate Phone Grip">
+                        <p>CRYSTAL MEDITATION CUSHION <br/> <span>38.99$</span></p>
+                        <button type="button">BUY NOW</button>
+                    </div>
+
+                    <div class="product-card">
+                        <img src="assets/Products/Jewellery.jpeg" alt="Crystal Agate Phone Grip">
+                        <p>CRYSTAL JEWELLERY <br/> <span>98.99$</span></p>
+                        <button type="button">BUY NOW</button>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <div>
+            <div class="btm-bg">
+                <img src="assets/Bottom Bg.svg" alt="wave" class="bottom-wave" />
+                <button type="button" class="view-all">View All</button>
+                <div>
+                    <section class="best-price">
+                        <div class="best-price-details">
+                            <h2>BEST PRICE <br/> <span> Agate Phone Grip </span></h2>
+                            <div class="best-price-con">
+                                <p><del>44.50$</del></p>
+                                <p><span>19.50$</span></p>
+                            </div>
+                            <p class="best-price-desc">
+                                These Pop Rock Crystal grip tops can be 
+                                swapped with other tops depending on your mood, 
+                                outfit, nails, phone case, holiday, etc.! Just gently 
+                                squeeze the sides to remove and swap out with another color or design!
+                            </p>
+                            <button type="button">BUY NOW</button>
+                        </div>
+                        <div class="product-display">
+                            <div class="circle-bg">
+                                <img src="/assets/Ellipse 9.svg" width="744px" height="744px" alt="ellipse" class="ellipse"/>
+                                <img src="/assets/Products/Agate.svg" alt="Agate" width="248px" height="248px" />
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+
+            <footer class="footer">
+                <div class="footer-container">
+                  <div class="footer-logo">
+                    <div class="logo">
+                        <img src="assets/Logo.svg" alt="Logo"/>
+                        <h1>Pop Rock Crystal</h1>
+                    </div>
+                    <p>Discover unique crystal accessories to add a touch of nature to your style.</p>
+                  </div>
+              
+                  <div class="footer-links">
+                    <h2>Quick Links</h2>
+                    <ul>
+                      <li><a href="#home">Home</a></li>
+                      <li><a href="#shop">Shop</a></li>
+                      <li><a href="#">About Us</a></li>
+                      <li><a href="#">Contact</a></li>
+                      <li><a href="#">FAQs</a></li>
+                    </ul>
+                  </div>
+              
+                  <div class="footer-contact">
+                    <h2>Contact Us</h2>
+                    <p>Email: support@poprockcrystal.com</p>
+                    <p>Phone: +1 234 567 890</p>
+                    <p>Address: 123 Crystal Street, Rock City</p>
+                  </div>
+              
+                  <div class="footer-social">
+                    <h2>Follow Us</h2>
+                    <ul class="social-icons">
+                      <li class="facebook"><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                      <li class="instagram"><a href="#"><i class="fa-brands fa-instagram instagram"></i></i></a></li>
+                      <li class="twitter"><a href="#"><i class="fa-brands fa-twitter twitter"></i></a></li>
+                      <li class="github"><a href="#"><i class="fa-brands fa-github github"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="footer-bottom">
+                  <p>&copy; 2024 Pop Rock Crystal. All Rights Reserved. Varun Vaggu</p>
+                </div>
+              </footer>
+        </div>
+</body>
+</html>
